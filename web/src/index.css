@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?display=swap&family=Fraunces:wght@700&family=Manrope:wght@400&display=swap');
+
+:root {
+  --paper: #ffffff;
+  --ink: #333333;
+  --muted: #666666;
+  --line: #e0e0e0;
+  --panel: #f9f9f9;
+  --accent: #3b82f6;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--ink);
+  background-color: var(--paper);
+}
+
+a {
+  font-family: 'Fraunces', serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--ink);
+    color: var(--paper);
+  }
+}

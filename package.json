@@ -1,0 +1,1 @@
+{ "name": "joke-generator", "version": "0.1.0", "private": true, "dev": "pnpm --filter @joke-generator/web dev", "build": "pnpm --filter @joke-generator/web build", "preview": "pnpm --filter @joke-generator/web preview", "typecheck": "pnpm --filter @joke-generator/web exec tsc -b", "test": "pnpm --filter @joke-generator/web test" }

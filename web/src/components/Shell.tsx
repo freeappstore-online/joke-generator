@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 
 interface ShellProps {
   children: ReactNode;
+  nav?: { label: string; icon: string; to: string }[];
 }
 
 export function Shell({ children }: ShellProps) {
@@ -37,3 +38,4 @@ export function Shell({ children }: ShellProps) {
     </>
   );
 }
+

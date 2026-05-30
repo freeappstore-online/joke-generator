@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import Shell from "./components/Shell";
+import { Shell } from "./components/Shell";
 
 const JOKES = [
   "Why don't scientists trust atoms? Because they make up everything!",

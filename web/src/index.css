@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?display=swap&family=Fraunces:wght@700&family=Manrope:wght@400&display=swap');
+@import "tailwindcss";
 
 :root {
   --paper: #ffffff;
@@ -7,6 +8,7 @@
   --line: #e0e0e0;
   --panel: #f9f9f9;
   --accent: #3b82f6;
+  --dock: #f9f9f9;
 }
 
 body {
@@ -20,8 +22,12 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--ink);
-    color: var(--paper);
+  :root {
+    --paper: #1a1a1a;
+    --ink: #f0f0f0;
+    --muted: #a0a0a0;
+    --line: #333333;
+    --panel: #242424;
+    --dock: #242424;
   }
 }
